@@ -1,51 +1,58 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SPS - Antenas e Motores</title>
-  <style>
-    body { margin: 0; font-family: Arial, sans-serif; }
-    header { background-color: rgb(17, 0, 255); color: rgb(255, 255, 255); padding: 1rem; text-align: center; font-size: 2rem; font-weight: bold; }
-    nav { background-color: rgb(39, 39, 39); padding: 1rem; text-align: center; }
-    nav a { margin: 0 1rem; text-decoration: none; color: rgb(255, 255, 255); font-weight: bold; }
-    section { padding: 2rem; }
-    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
-    th, td { border: 1px solid #ddd; padding: 1rem; text-align: center; }
-    img { width: 100px; height: auto; }
-    footer { background-color: #f2f2f2; padding: 1rem; text-align: center; margin-top: 2rem; }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato — SPS Soluções Residenciais</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
 </head>
 <body>
-  <header>SPS Antenas e Motor de Portão</header>
-  <nav>
-     <a href="sps.html">Inicio</a>
-    <a href="Tabela.html">Produtos</a>
-  </nav>  <section id="inicio">
-    <h1> Atendimento e contato</h1>
-    <p></p>
-    <h2>
-     Atendemos em Curitiba e região metropolitana, oferecendo serviços de instalação e manutenção de antenas e motores de portão, com mais de 20 anos de experiência no mercado.
-    </h2>
-    <h2>
-      Entre em contato para orçamento sem compromisso:
-    </h2>
-    <h2>
-      📞 Telefone fixo: (41) 3666-3827
-    </h2>
-    <h2>
-      📱 WhatsApp: (41) 9 9196-1445
-<h2>
-      👤 Responsável: Sidinei Pereira da Silva
-    </h2>
-      <h2>
-      Qualidade, confiança e agilidade no atendimento!
-      
-      </h2>
-    
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">SPS</div>
+        <div>
+          <div class="brand-title">SPS Soluções Residenciais</div>
+          <div class="brand-subtitle">Sidinei — Curitiba e RM</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-      <footer>
-        &copy; 2025 SPS - Todos os direitos reservados
-      </footer>
+  <main class="container">
+    <section class="card">
+      <h1>Contato</h1>
+      <p class="lead">Entre em contato para um orçamento sem compromisso.</p>
+      <form action="#" onsubmit="return enviarFormulario(event)">
+        <div class="row">
+          <input type="text" name="nome" placeholder="Seu nome" required />
+          <input type="tel" name="telefone" placeholder="Telefone" required />
+        </div>
+        <input type="email" name="email" placeholder="E-mail (opcional)" />
+        <textarea name="mensagem" rows="4" placeholder="Descreva o serviço desejado" required></textarea>
+        <div class="form-actions">
+          <button class="submit" type="submit">Enviar mensagem</button>
+          <a class="btn btn-outline" href="tel:+5541991961445">Ligar agora</a>
+        </div>
+      </form>
+    </section>
+  </main>
 
+  <footer>
+    <div class="container footer">
+      <div>© SPS Soluções Residenciais — Sidinei</div>
+      <div>Telefone: <a href="tel:+5541991961445">(41) 99196-1445</a></div>
+      <div>instagram: <a href="https://www.instagram.com/sps_segurancaeletronica/"> sps_segurancaeletronica</a></div>
+    </div>
+  </footer>
 </body>
 </html>
