@@ -1,39 +1,62 @@
-<!DOCTYPE html><html lang="pt-BR">
+<!doctype html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SPS - Antenas e Motores</title>
-  <style>
-    body { margin: 0; font-family: Arial, sans-serif; }
-    header { background-color: rgb(17, 0, 255); color: rgb(255, 255, 255); padding: 1rem; text-align: center; font-size: 2rem; font-weight: bold; }
-    nav { background-color: rgb(39, 39, 39); padding: 1rem; text-align: center; }
-    nav a { margin: 0 1rem; text-decoration: none; color: rgb(255, 255, 255); font-weight: bold; }
-    section { padding: 2rem; }
-    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
-    th, td { border: 1px solid #ddd; padding: 1rem; text-align: center; }
-    img { width: 100px; height: auto; }
-    footer { background-color: #f2f2f2; padding: 1rem; text-align: center; margin-top: 2rem; }
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Início — SPS Segurança Eletrônica</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
 </head>
 <body>
-  <header>SPS Antenas e Motor de Portão</header>
-  <nav>
-     <a href="contato.html">Contato</a>
-    <a href="tabela.html">Produtos</a>
-  </nav>  <section id="inicio">
-    <h1>Seja Bem-vindo á SPS Antenas</h1>
-    <h3>Com mais de 20 anos de experiência no mercado, somos especialistas na instalação, manutenção e venda de antenas e motores de portão e interfone. Atendemos com agilidade e qualidade em Curitiba e toda a região metropolitana, sempre priorizando a segurança, tecnologia e satisfação dos nossos clientes.
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">SPS</div>
+        <div>
+          <div class="brand-title">SPS Segurança Eletrônica</div>
+          <div class="brand-subtitle">Sidinei — Curitiba e RM</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-      Contamos com uma equipe técnica qualificada e comprometida em oferecer soluções práticas e duradouras, seja para residências, comércios ou condomínios. Trabalhamos com as melhores marcas do mercado e garantimos um atendimento personalizado, do orçamento à finalização do serviço.
-      
-      Confiança, tradição e qualidade que você pode contar!
-      
-    </h3>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Soluções em Segurança Residencial</h1>
+        <p class="lead">Há mais de 15 anos no mercado, cuidando da sua segurança e conforto em Curitiba e região metropolitana.</p>
+        <div class="buttons">
+          <a href="produtos.html" class="btn">Conheça nossos produtos</a>
+          <a href="contato.html" class="btn btn-outline">Solicite um orçamento</a>
+        </div>
+      </div>
+    </section>
 
+    <section class="container card">
+      <h2>Nossos Serviços</h2>
+      <div class="services-grid">
+        <div class="service"><strong>Câmeras de Segurança</strong><p>Instalação e manutenção de sistemas de monitoramento.</p></div>
+        <div class="service"><strong>Motor de Portão</strong><p>Automação para portões deslizantes e basculantes.</p></div>
+        <div class="service"><strong>Cerca Elétrica</strong><p>Segurança perimetral eficiente para sua residência.</p></div>
+        <div class="service"><strong>Antenas</strong><p>Instalação e ajustes de antenas digitais.</p></div>
+        <div class="service"><strong>Interfone</strong><p>Sistemas modernos de intercomunicação.</p></div>
+      </div>
+    </section>
+  </main>
 
-<img src="antena_parabolica_chapa_60_cm_banda_ku_59145_1_b1c0ec152f847c6083af406757a3d107.webp" alt="1000px">
-<footer>
-  &copy; 2025 SPS - Todos os direitos reservados
-</footer>
+  <footer>
+    <div class="container footer">
+      <div>© SPS Soluções Residenciais — Sidinei</div>
+      <div>Telefone: <a href="tel:+5541991961445">(41) 99196-1445</a></div>
+    </div>
+  </footer>
 </body>
 </html>
